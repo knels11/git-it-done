@@ -1,0 +1,29 @@
+:root {
+    --primary: #ccdad1;
+    --secondary: #9caea9;
+    --tertiary: #788585;
+    --light-dark: #6f6866;
+    --dark: #38302e;
+    --border-radius: .5rem;
+}
+
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background-color: var(--primary);
+    margin:5px;
+    padding:5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--tertiary);
+    line-height: 3;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 800;
+    margin:2px;
+    color: var(--dark);
+    line-height: 1.5;
+}
